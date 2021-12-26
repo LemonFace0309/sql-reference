@@ -43,14 +43,14 @@
 --   );
 
 
--- INSERT INTO events_tags (event_id, tag_name)
--- VALUES 
---   (1, 'socialize'),
---   (1, 'connect'),
---   (1, 'dinner');
+INSERT INTO events_tags (event_id, tag_name)
+VALUES 
+  (1, 'socialize'),
+  (1, 'connect'),
+  (1, 'dinner');
 
 
--- INSERT INTO events_users (event_id, user_id)
--- VALUES 
---   (1, 3),
---   (1, 4);
+INSERT INTO events_users (event_id, user_id)
+VALUES 
+  (1, 3),
+  (1, 4);
